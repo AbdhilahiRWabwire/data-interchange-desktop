@@ -1,7 +1,7 @@
 [C Language]: https://learn.microsoft.com/en-us/cpp/c-language
 [CommonMark]:https://commonmark.org/
 [Fleet]: https://jetbrains.com/fleet/
-[Hypertext Transfer Protocol]: https://developer.mozilla.org/en-US/docs/Web/HTTP
+[HTTP]: https://developer.mozilla.org/en-US/docs/Web/HTTP
 [JSON]: https://www.json.org/json-en.html
 [TOML]: https://toml.io/en/
 [Unix]: https://publications.opengroup.org/
@@ -30,7 +30,7 @@ Data Interchange Desktop is the Desktop implementation of Data Interchange
 
 - Comma-Separated Values
 - Extensible Markup Language
-- [Hypertext Transfer Protocol][Hypertext Transfer Protocol]
+- [Hypertext Transfer Protocol][HTTP]
 - Internet Protocol
 - [JavaScript Object Notation][JSON]
 - [Markdown][CommonMark]
