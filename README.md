@@ -62,7 +62,7 @@ zig build
 ```shell
 echo 'export PATH="$PATH:/usr/bin"' >> ~/.bashrc && echo 'export PATH="$PATH:/usr/include"' >> ~/.bashrc && echo 'export PATH="$PATH:/usr/local/include"' >> ~/.bashrc
 
-sudo echo 'export PATH="$PATH:/usr/bin"' >> /etc/skel/.bashrc && sudo echo 'export PATH="$PATH:/usr/include"' >> /etc/skel/.bashrc && sudo echo 'export PATH="$PATH:/usr/local/include"' >> /etc/skel/.bashrc
+sudo echo 'export PATH="$PATH:/usr/bin"' >> /etc/skel/.bashrc && sudo echo 'export PATH="$PATH:/usr/include"' >> /etc/skel/.bashrc && sudo echo 'export PATH="$PATH:usr/local/include"' >> /etc/skel/.bashrc
 
 wget https://sdk.lunarg.com/sdk/download/1.3.296.0/linux/vulkansdk-linux-x86_64-1.3.296.0.tar.xz && tar --extract --file ./*.xz --verbose
 
@@ -72,5 +72,5 @@ mv ./1.3.296.0/x86_64/include ./1.3.296.0/x86_64/VulkanSDK && sudo mv ./1.3.296.
 ## Install
 
 ```shell
-echo 'export PATH="$PATH:/usr/lib/htdi"' >> ~/.profile
+echo 'export PATH="$PATH:/usr/local/bin/htdi"' >> ~/.bashrc && sudo echo 'export PATH="$PATH:/usr/local/bin/htdi"' >> /etc/skel/.bashrc
 ```
