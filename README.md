@@ -22,9 +22,7 @@
 
 # Data Interchange Desktop
 
-Data Interchange is a Network Application Programming Interface Platform
-
-Data Interchange Desktop is the Desktop implementation of Data Interchange
+Data Interchange is a Network Application Programming Interface Development Platform
 
 ## Features
 
