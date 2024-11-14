@@ -5,7 +5,6 @@
 [JSON]: https://www.json.org/json-en.html
 [TOML]: https://toml.io/en/
 [Unix]: https://publications.opengroup.org/
-[Unix-Like]: https://docs.kernel.org/
 [VSCode]: https://code.visualstudio.com/docs
 [Vulkan]: https://www.vulkan.org/learn
 [Win32]: https://learn.microsoft.com/en-us/windows/apps/desktop/
@@ -43,11 +42,10 @@ Data Interchange is a Network Application Programming Interface Development Plat
 
 - [C][C Language]
 - [JetBrains Fleet][Fleet]
-- [Linux][Unix-Like] 
 - [Single Unix Specification][Unix]
 - [Visual Studio Code][VSCode]
 - [Vulkan SDK][Vulkan]
-- [Windows][Win32]
+- [Windows App SDK][Win32]
 - [Zig][Zig Language]
 
 ```shell
