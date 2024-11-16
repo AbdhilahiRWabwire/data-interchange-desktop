@@ -1,6 +1,5 @@
 [C Language]: https://learn.microsoft.com/en-us/cpp/c-language
 [CommonMark]:https://commonmark.org/
-[Fleet]: https://jetbrains.com/fleet/
 [HTTP]: https://developer.mozilla.org/en-US/docs/Web/HTTP
 [JSON]: https://www.json.org/json-en.html
 [TOML]: https://toml.io/en/
@@ -41,7 +40,6 @@ Data Interchange is a Network Application Programming Interface Development Plat
 ## Build
 
 - [C][C Language]
-- [JetBrains Fleet][Fleet]
 - [Single Unix Specification][Unix]
 - [Visual Studio Code][VSCode]
 - [Vulkan SDK][Vulkan]
