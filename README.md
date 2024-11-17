@@ -54,9 +54,9 @@ zig build
 ## Install Vulkan SDK
 
 ```shell
-echo 'export PATH="$PATH:/usr/include"' >> ~/.bashrc && echo 'export PATH="$PATH:/usr/local/include"' >> ~/.bashrc
+echo 'export PATH="$PATH:/usr/include"' >> ~/.bashrc && sudo echo 'export PATH="$PATH:/usr/include"' >> /etc/skel/.bashrc
 
-&& sudo echo 'export PATH="$PATH:/usr/include"' >> /etc/skel/.bashrc && sudo echo 'export PATH="$PATH:usr/local/include"' >> /etc/skel/.bashrc
+echo 'export PATH="$PATH:/usr/local/include"' >> ~/.bashrc && sudo echo 'export PATH="$PATH:usr/local/include"' >> /etc/skel/.bashrc
 
 wget https://sdk.lunarg.com/sdk/download/1.3.296.0/linux/vulkansdk-linux-x86_64-1.3.296.0.tar.xz && tar --extract --file ./*.xz --verbose
 
