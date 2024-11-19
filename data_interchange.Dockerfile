@@ -14,5 +14,3 @@ RUN wget https://sdk.lunarg.com/sdk/download/1.3.296.0/linux/vulkansdk-linux-x86
 RUN mv ./1.3.296.0/x86_64/include ./1.3.296.0/x86_64/VulkanSDK && mv ./1.3.296.0/x86_64/VulkanSDK /usr/local/include
 RUN zig version
 RUN zig build
-
-ENTRYPOINT ["/bin/linux/data_interchange"]
