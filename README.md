@@ -1,4 +1,5 @@
 [C Language]: https://learn.microsoft.com/en-us/cpp/c-language
+[C++ Language]: https://learn.microsoft.com/en-us/cpp/cpp/
 [Clang]: https://clang.llvm.org/
 [CommonMark]:https://commonmark.org/
 [HTTP]: https://developer.mozilla.org/en-US/docs/Web/HTTP
@@ -7,7 +8,7 @@
 [Unix]: https://publications.opengroup.org/
 [VSCode]: https://code.visualstudio.com/docs
 [Vulkan]: https://www.vulkan.org/learn
-[Win32]: https://learn.microsoft.com/en-us/windows/apps/desktop/
+[Win32]: https://learn.microsoft.com/en-us/windows/win32/api/
 [YAML]: https://yaml.org/
 [Zig Language]: https://ziglang.org/
 
@@ -41,11 +42,12 @@ Data Interchange is a Network Application Programming Interface Development Plat
 ## Build
 
 - [C][C Language]
+- [C++][C++ Language]
 - [LLVM Clang][Clang]
 - [Single Unix Specification][Unix]
 - [Visual Studio Code][VSCode]
 - [Vulkan SDK][Vulkan]
-- [Windows App SDK][Win32]
+- [Windows Win32 API][Win32]
 - [Zig][Zig Language]
 
 ```shell
