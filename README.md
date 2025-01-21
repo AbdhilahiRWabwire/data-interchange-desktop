@@ -49,25 +49,6 @@ git clone
 
 zig build
 ```
-## Install Vulkan SDK
-
-```shell
-echo 'export PATH="$PATH:/usr/bin"' >> ~/.bashrc && sudo echo 'export PATH="$PATH:/usr/bin"' >> /etc/skel/.bashrc
-
-echo 'export PATH="$PATH:/usr/local/bin"' >> ~/.bashrc && sudo echo 'export PATH="$PATH:/usr/local/bin"' >> /etc/skel/.bashrc
-
-echo 'export PATH="$PATH:/usr/include"' >> ~/.bashrc && sudo echo 'export PATH="$PATH:/usr/include"' >> /etc/skel/.bashrc
-
-echo 'export PATH="$PATH:/usr/local/include"' >> ~/.bashrc && sudo echo 'export PATH="$PATH:usr/local/include"' >> /etc/skel/.bashrc
-
-echo 'export PATH="$PATH:/usr/bin/vulkan/x86_64/bin"' >> ~/.bashrc && sudo echo 'export PATH="$PATH:/usr/bin/vulkan/x86_64/bin"' >> /etc/skel/.bashrc
-
-wget https://sdk.lunarg.com/sdk/download/1.3.296.0/linux/vulkansdk-linux-x86_64-1.3.296.0.tar.xz && tar --extract --file ./*.xz --verbose
-
-sudo cp -r ./1.3.296.0/x86_64/include /usr/local/include && sudo mv /usr/local/include/include /usr/local/include/VulkanSDK
-
-mv ./1.3.296.0 ./vulkan && sudo mv ./vulkan /usr/bin
-```
 
 ## Install
 
