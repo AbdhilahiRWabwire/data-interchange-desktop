@@ -5,7 +5,7 @@ WORKDIR /data-interchange
 COPY ./ ./
 
 RUN dnf -y upgrade
-RUN dnf -y install zig gcc gdb llvm clang lldb make cmake ninja xz
+RUN dnf -y install zig gcc gdb llvm clang lldb make cmake ninja
 RUN echo 'export PATH="$PATH:/usr/bin"' >> ~/.bashrc && echo 'export PATH="$PATH:/usr/bin"' >> /etc/skel/.bashrc
 RUN echo 'export PATH="$PATH:/usr/local/bin"' >> ~/.bashrc && echo 'export PATH="$PATH:/usr/local/bin"' >> /etc/skel/.bashrc
 RUN echo 'export PATH="$PATH:/usr/include"' >> ~/.bashrc && echo 'export PATH="$PATH:/usr/include"' >> /etc/skel/.bashrc
