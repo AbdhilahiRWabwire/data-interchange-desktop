@@ -52,33 +52,38 @@ zig build
 
 ## Install Vulkan SDK
 ```shell
-echo 'export PATH="$PATH:/usr/bin"' >> ~/.bashrc && sudo echo 'export PATH="$PATH:/usr/bin"' >> /etc/skel/.bashrc
-
-echo 'export PATH="$PATH:/usr/local/bin"' >> ~/.bashrc && sudo echo 'export PATH="$PATH:/usr/local/bin"' >> /etc/skel/.bashrc
-
-echo 'export PATH="$PATH:/usr/include"' >> ~/.bashrc && sudo echo 'export PATH="$PATH:/usr/include"' >> /etc/skel/.bashrc
-
-echo 'export PATH="$PATH:/usr/local/include"' >> ~/.bashrc && sudo echo 'export PATH="$PATH:usr/local/include"' >> /etc/skel/.bashrc
-
-echo 'export PATH="$PATH:/usr/lib"' >> ~/.bashrc && sudo echo 'export PATH="$PATH:/usr/lib"' >> /etc/skel/.bashrc
-
-echo 'export PATH="$PATH:/usr/local/lib"' >> ~/.bashrc && sudo echo 'export PATH="$PATH:usr/local/lib"' >> /etc/skel/.bashrc
-
-echo 'export PATH="$PATH:/usr/bin/vulkan/x86_64/bin"' >> ~/.bashrc && sudo echo 'export PATH="$PATH:/usr/bin/vulkan/x86_64/bin"' >> /etc/skel/.bashrc
-
-wget https://sdk.lunarg.com/sdk/download/1.4.304.0/linux/vulkansdk-linux-x86_64-1.4.304.0.tar.xz && tar --extract --file ./*.xz --verbose
-
-cp -r ./1.4.304.0/x86_64/include ./ && mv ./include ./vulkan && sudo mv ./vulkan /usr/local/include
-
-cp -r ./1.4.304.0/x86_64/lib ./ && mv ./lib ./vulkan && sudo mv ./vulkan /usr/local/lib
-
-cp -r ./1.4.304.0/x86_64/share ./ && mv ./share ./vulkan && sudo mv ./vulkan /usr/local/share
-
-mv ./1.4.304.0 ./vulkan && sudo mv ./vulkan /usr/bin
+echo 'export PATH="$PATH:/usr/bin"' >> ~/.bashrc \ 
+sudo echo 'export PATH="$PATH:/usr/bin"' >> /etc/skel/.bashrc \ 
+echo 'export PATH="$PATH:/usr/local/bin"' >> ~/.bashrc \ 
+sudo echo 'export PATH="$PATH:/usr/local/bin"' >> /etc/skel/.bashrc
+echo 'export PATH="$PATH:/usr/include"' >> ~/.bashrc \ 
+sudo echo 'export PATH="$PATH:/usr/include"' >> /etc/skel/.bashrc \ 
+echo 'export PATH="$PATH:/usr/local/include"' >> ~/.bashrc \ 
+sudo echo 'export PATH="$PATH:usr/local/include"' >> /etc/skel/.bashrc \ 
+echo 'export PATH="$PATH:/usr/lib"' >> ~/.bashrc \ 
+sudo echo 'export PATH="$PATH:/usr/lib"' >> /etc/skel/.bashrc \ 
+echo 'export PATH="$PATH:/usr/local/lib"' >> ~/.bashrc \ 
+sudo echo 'export PATH="$PATH:usr/local/lib"' >> /etc/skel/.bashrc \ 
+echo 'export PATH="$PATH:/usr/bin/vulkan/x86_64/bin"' >> ~/.bashrc \ 
+sudo echo 'export PATH="$PATH:/usr/bin/vulkan/x86_64/bin"' >> /etc/skel/.bashrc \ 
+wget https://sdk.lunarg.com/sdk/download/1.4.304.0/linux/vulkansdk-linux-x86_64-1.4.304.0.tar.xz \ 
+tar --extract --file ./*.xz --verbose \ 
+cp -r ./1.4.304.0/x86_64/include ./ \ 
+mv ./include ./vulkan \ 
+sudo mv ./vulkan /usr/local/include \ 
+cp -r ./1.4.304.0/x86_64/lib ./ \ 
+mv ./lib ./vulkan \ 
+sudo mv ./vulkan /usr/local/lib \ 
+cp -r ./1.4.304.0/x86_64/share ./ \ 
+mv ./share ./vulkan \ 
+sudo mv ./vulkan /usr/local/share \ 
+mv ./1.4.304.0 ./vulkan \ 
+sudo mv ./vulkan /usr/bin
 ```
 
 ## Install
 
 ```shell
-echo 'export PATH="$PATH:/usr/local/bin/htdi"' >> ~/.bashrc && sudo echo 'export PATH="$PATH:/usr/local/bin/htdi"' >> /etc/skel/.bashrc
+echo 'export PATH="$PATH:/usr/local/bin/htdi"' >> ~/.bashrc \ 
+sudo echo 'export PATH="$PATH:/usr/local/bin/htdi"' >> /etc/skel/.bashrc
 ```
