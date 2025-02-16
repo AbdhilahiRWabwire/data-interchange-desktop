@@ -1,4 +1,4 @@
-FROM amd64/fedora:latest
+FROM fedora:latest
 
 WORKDIR /data-interchange
 
@@ -10,7 +10,7 @@ zig version \
 zig build
 
 
-FROM amd64/alpine:latest
+FROM alpine:latest
 
 WORKDIR /data-interchange
 
