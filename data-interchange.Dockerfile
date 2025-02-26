@@ -16,4 +16,5 @@ WORKDIR /data-interchange
 
 COPY --from=builder ./ ./
 
-RUN ./binary/htdi
+CMD ["./binary/htdi"]
+
